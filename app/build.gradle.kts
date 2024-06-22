@@ -46,10 +46,10 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
     // Java language implementation
     implementation(libs.navigation.fragment)
-    implementation("androidx.navigation:navigation-ui:$nav_version")
+    implementation(libs.navigation.ui)
 
     // Kotlin
-    implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
+    implementation(libs.androidx.navigation.fragment.ktx)
     implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
 
     // Feature module Support
